@@ -3,26 +3,42 @@ package lista_agregacao;
 public class DVD {
 	private String marca;
 	private String modelo;
-	
+
 	public DVD(String marca, String modelo) {
 		this.marca = marca;
 		this.modelo = modelo;
 	}
 
-	public String getMarca() {
-		return marca;
+	/**
+	 * get the value of marca
+	 * @return the value of marca
+	 */
+	public String getMarca(){
+		return this.marca;
 	}
-	
+
+	/**
+	 * set a new value to marca
+	 * @param marca the new value to be used
+	 */
 	public void setMarca(String marca) {
-		this.marca = marca;
+		this.marca=marca;
 	}
-	
-	public String getModelo() {
-		return modelo;
+
+	/**
+	 * get the value of modelo
+	 * @return the value of modelo
+	 */
+	public String getModelo(){
+		return this.modelo;
 	}
-	
+
+	/**
+	 * set a new value to modelo
+	 * @param modelo the new value to be used
+	 */
 	public void setModelo(String modelo) {
-		this.modelo = modelo;
+		this.modelo=modelo;
 	}
 
 	@Override
